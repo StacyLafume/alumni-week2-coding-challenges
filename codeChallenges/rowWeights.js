@@ -33,3 +33,4 @@ const rowWeights = array => {
       }
     }
     return [t1.reduce((acc,cv)=>acc+cv,0),t2.reduce((acc,cv)=>acc+cv,0)]
+}
